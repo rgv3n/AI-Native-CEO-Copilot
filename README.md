@@ -75,7 +75,7 @@ Which sales opportunities have the highest expected value?
            v                   v                   v
        Strategy             Finance            Operations
         Agent                Agent                Agent
-           \                   |                   /
+           \\                   |                   /
             +--------- Sales / Research ----------+
                                |
                                v
@@ -235,7 +235,7 @@ Private deployments may include:
 - on-prem / hybrid / cloud deployment patterns,
 - workload and inference optimization.
 
-For enterprise implementation, AI architecture and AI infrastructure work: **CompaniesAutomation**.
+For enterprise implementation, AI architecture and AI infrastructure work: **[CompaniesAutomation.com](https://companiesautomation.com)**.
 
 ## Author
 
