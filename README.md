@@ -4,7 +4,7 @@
 
 AI-Native CEO Copilot explores how agents, tools, memory, enterprise data and accelerated infrastructure can work together to help executives understand what is happening inside their companies — and why.
 
-![AI-Native CEO Copilot architecture](ceo-copilot-architecture.jpg)
+![AI-Native CEO Copilot architecture](ceo-copilot-architecture(4).jpg)
 
 > This repository is a public technical showcase. It is intentionally separated from the private production codebase.
 
@@ -178,7 +178,7 @@ The system can reason over delays, materials, subcontractors, scope changes, cos
 AI-Native-CEO-Copilot/
 |
 +-- README.md
-+-- ceo-copilot-architecture.jpg
++-- ceo-copilot-architecture(4).jpg
 +-- docs/
 |   +-- reference-architecture.md
 |   +-- architecture.md
