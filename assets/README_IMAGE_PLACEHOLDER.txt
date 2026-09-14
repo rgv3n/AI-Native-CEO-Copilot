@@ -1,1 +1,0 @@
-Architecture image upload pending binary transfer through connector.
