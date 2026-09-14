@@ -8,6 +8,14 @@ AI-Native CEO Copilot explores how agents, tools, memory, enterprise data and ac
 
 > This repository is a public technical showcase. It is intentionally separated from the private production codebase.
 
+## Reference Architecture v0.1
+
+The first public reference architecture is now available:
+
+**[`docs/reference-architecture.md`](docs/reference-architecture.md)**
+
+It covers the full stack from executive experience and agent orchestration to enterprise tools, data, governance, observability and NVIDIA AI infrastructure.
+
 ## The differentiation
 
 Most CEO copilots stop at the application layer: chat, dashboards, prompts and integrations.
@@ -89,7 +97,7 @@ Which sales opportunities have the highest expected value?
                   Grounded Executive Output
 ```
 
-See [`docs/architecture.md`](docs/architecture.md) for the architecture in more detail.
+See [`docs/reference-architecture.md`](docs/reference-architecture.md) for the complete reference architecture.
 
 ## NVIDIA-powered AI infrastructure
 
@@ -172,6 +180,7 @@ AI-Native-CEO-Copilot/
 +-- README.md
 +-- ceo-copilot-architecture.jpg
 +-- docs/
+|   +-- reference-architecture.md
 |   +-- architecture.md
 |   +-- executive-use-cases.md
 |   +-- security.md
