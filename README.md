@@ -26,7 +26,7 @@ Those production elements are intentionally separated from the public reference 
 
 See **[`docs/enterprise-implementation.md`](docs/enterprise-implementation.md)** for the public/private model and enterprise implementation approach.
 
-If you are evaluating this architecture for a real organization, **Rubén García / [CompaniesAutomation.com](https://companiesautomation.com/en)** can help design and implement the production system.
+If you are evaluating this architecture for a real organization, **Rubén García / [companiesautomation.com/en](https://companiesautomation.com/en)** can help design and implement the production system.
 
 ## The differentiation
 
@@ -259,7 +259,7 @@ Private implementations may include:
 
 Read **[`docs/enterprise-implementation.md`](docs/enterprise-implementation.md)** for the implementation model.
 
-For enterprise implementation, AI architecture and NVIDIA AI infrastructure work: **[CompaniesAutomation.com](https://companiesautomation.com/en)**.
+For enterprise implementation, AI architecture and NVIDIA AI infrastructure work: **[companiesautomation.com/en](https://companiesautomation.com/en)**.
 
 ## Author
 
