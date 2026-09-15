@@ -12,7 +12,7 @@ All companies, customers, projects, opportunities, suppliers, amounts and events
 
 ## Synthetic company
 
-**Company:** Northstar Industrial Systems S.L.  
+**Company:** Northstar Industrial Systems S.L. (Synthetic company with realistic synthetic dataset)  
 **Business:** B2B engineering and industrial automation projects  
 **Headquarters:** Madrid, Spain  
 **Employees:** 78  
