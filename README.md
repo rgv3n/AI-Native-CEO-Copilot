@@ -6,7 +6,33 @@ AI-Native CEO Copilot explores how agents, tools, memory, enterprise data and ac
 
 ![AI-Native CEO Copilot architecture](ceo-copilot-architecture(4).jpg)
 
-> This repository is a public technical showcase and open reference architecture. It is intentionally separated from private production implementations.
+> This repository is the public reference architecture. The production-grade enterprise implementation is developed separately in a private codebase.
+
+## Public reference → Private enterprise implementation
+
+This repository is intentionally public: it explains the architecture, operating model, contracts, synthetic datasets, governance patterns and selected examples.
+
+The production implementation is private.
+
+It may include:
+
+- real ERP / CRM / BI / database connectors,
+- production agent orchestration,
+- proprietary prompts and policies,
+- organization-specific decision workflows,
+- authentication and authorization,
+- enterprise memory and data boundaries,
+- action execution and approval flows,
+- advanced observability and audit trails,
+- production model routing,
+- NVIDIA-accelerated inference infrastructure,
+- on-prem / hybrid / private-cloud deployment,
+- evaluation suites, deployment automation and operational runbooks.
+
+**If you want to evaluate or implement the private enterprise version for a real organization:**  
+**[companiesautomation.com/en](https://companiesautomation.com/en)**
+
+**Open reference architecture. Private enterprise implementation.**
 
 ## For CEOs: the Agentic Operating Model
 
@@ -173,7 +199,7 @@ Which sales opportunities have the highest expected value?
            v                   v                   v
        Strategy             Finance            Operations
         Agent                Agent                Agent
-           \\                   |                   /
+           \                   |                   /
             +--------- Sales / Research ----------+
                                |
                                v
@@ -295,6 +321,14 @@ AI-Native-CEO-Copilot/
 |   +-- objective-policy-contract.md
 |   +-- agent-coordination.md
 |   +-- escalation-exception-handling.md
+|   +-- executive-decision-engine.md
+|   +-- executive-decision-packet.md
+|   +-- scenario-tradeoff-model.md
+|   +-- recommendation-ranking.md
+|   +-- continuous-executive-intelligence.md
+|   +-- materiality-engine.md
+|   +-- executive-signal-routing.md
+|   +-- decision-trigger-lifecycle.md
 |   +-- enterprise-deployment-patterns.md
 |   +-- model-routing.md
 |   +-- nvidia-inference-deployment.md
@@ -327,9 +361,9 @@ AI-Native-CEO-Copilot/
 
 ## Current status
 
-**v0.7 — autonomous company control plane, agentic operating model, executive workflows, observability and enterprise deployment reference.**
+**v0.9 — continuous executive intelligence, executive decision engine, autonomous company control plane, agentic operating model, observability and enterprise deployment reference.**
 
-The production version of CEO Copilot is developed separately. This repository exposes selected reference implementations, infrastructure experiments and demo workflows over time.
+The production version of CEO Copilot is developed separately in a private codebase. This repository exposes selected reference implementations, infrastructure experiments and demo workflows over time.
 
 ## The thesis
 
