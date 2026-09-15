@@ -32,15 +32,22 @@ Documentation and benchmark assets:
 ## v0.3 — Working executive workflows
 
 - [x] Margin analysis demo
-- [ ] Cash-flow risk demo
-- [ ] Sales prioritization demo
-- [ ] Project risk demo
-- [ ] Human approval checkpoints
+- [x] Cash-flow risk demo
+- [x] Sales prioritization demo
+- [x] Project risk demo
+- [x] Human approval checkpoints
 
 Workflow examples:
 
 - [`../examples/margin-analysis/README.md`](../examples/margin-analysis/README.md)
 - [`../examples/margin-analysis/expected-output.md`](../examples/margin-analysis/expected-output.md)
+- [`../examples/cash-flow-risk/README.md`](../examples/cash-flow-risk/README.md)
+- [`../examples/cash-flow-risk/expected-output.md`](../examples/cash-flow-risk/expected-output.md)
+- [`../examples/sales-prioritization/README.md`](../examples/sales-prioritization/README.md)
+- [`../examples/sales-prioritization/expected-output.md`](../examples/sales-prioritization/expected-output.md)
+- [`../examples/project-risk/README.md`](../examples/project-risk/README.md)
+- [`../examples/project-risk/expected-output.md`](../examples/project-risk/expected-output.md)
+- [`human-approval-checkpoints.md`](human-approval-checkpoints.md)
 
 ## v0.4 — Observability
 
