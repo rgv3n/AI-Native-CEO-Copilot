@@ -80,8 +80,24 @@ Enterprise deployment references:
 
 The public v0.5 layer defines deployment boundaries, access-control patterns, private and hybrid inference, workload-aware model routing, NVIDIA-oriented GPU inference patterns and tenant-isolation principles. Production implementation remains organization-specific.
 
+## v0.6 — Agentic operating model
+
+- [x] Agentic operating model
+- [x] Executive operating loop
+- [x] Management-by-exception pattern
+- [x] Agent autonomy levels
+- [x] Human decision boundaries
+
+Operating-model references:
+
+- [`agentic-operating-model.md`](agentic-operating-model.md)
+- [`executive-operating-loop.md`](executive-operating-loop.md)
+- [`autonomy-matrix.md`](autonomy-matrix.md)
+
+The public v0.6 layer translates the technical architecture into an executive operating model: specialized agents continuously observe, investigate, coordinate and prioritize company signals; humans retain authority for consequential decisions; selected low-risk workflows can progress toward policy-bounded autonomous execution.
+
 ## Direction
 
 The goal is not to maximize feature count.
 
-The goal is to build a clear reference for a new class of enterprise system: an AI-native executive intelligence layer that can reason over company data, coordinate specialized agents and keep humans in control of consequential actions.
+The goal is to build a clear reference for a new class of enterprise system: an AI-native executive intelligence and operating layer that can reason over company data, coordinate specialized agents, reduce manual organizational coordination and keep humans in control of consequential decisions.
