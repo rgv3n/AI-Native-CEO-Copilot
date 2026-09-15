@@ -8,6 +8,28 @@ AI-Native CEO Copilot explores how agents, tools, memory, enterprise data and ac
 
 > This repository is a public technical showcase and open reference architecture. It is intentionally separated from private production implementations.
 
+## For CEOs: the Agentic Operating Model
+
+The strategic idea behind this project is larger than a CEO chatbot.
+
+It explores a company where specialized agents across Finance, Sales, Operations, Strategy and Research continuously monitor business signals, investigate exceptions, coordinate evidence and escalate only the decisions that require human attention.
+
+The operating model shifts from:
+
+**People gather information → people analyze → people coordinate → management receives reports → management decides**
+
+into:
+
+**Systems generate signals → agents monitor → agents investigate → agents coordinate → agents prioritize → humans decide where required → agents execute permitted follow-up**
+
+Start here:
+
+- **[`docs/agentic-operating-model.md`](docs/agentic-operating-model.md)** — how the organization changes
+- **[`docs/executive-operating-loop.md`](docs/executive-operating-loop.md)** — how agents detect, investigate and escalate continuously
+- **[`docs/autonomy-matrix.md`](docs/autonomy-matrix.md)** — what agents can do autonomously and where humans retain authority
+
+The objective is not maximum autonomy. It is **maximum useful autonomy inside explicit governance boundaries**.
+
 ## Reference Architecture v0.1
 
 The first public reference architecture is now available:
@@ -168,6 +190,7 @@ This public repository focuses on the parts useful for learning, evaluation and 
 - dashboard examples,
 - security principles,
 - observability patterns,
+- agentic operating-model patterns,
 - NVIDIA-oriented deployment patterns,
 - inference and infrastructure experiments.
 
@@ -212,6 +235,13 @@ AI-Native-CEO-Copilot/
 |   +-- executive-use-cases.md
 |   +-- executive-question-schema.md
 |   +-- executive-golden-questions.md
+|   +-- agentic-operating-model.md
+|   +-- executive-operating-loop.md
+|   +-- autonomy-matrix.md
+|   +-- enterprise-deployment-patterns.md
+|   +-- model-routing.md
+|   +-- nvidia-inference-deployment.md
+|   +-- observability.md
 |   +-- enterprise-implementation.md
 |   +-- ai-assistant-guidance.md
 |   +-- human-approval-checkpoints.md
@@ -223,6 +253,7 @@ AI-Native-CEO-Copilot/
 |   +-- cash-flow-risk/
 |   +-- sales-prioritization/
 |   +-- project-risk/
+|   +-- observability/
 |
 +-- demo-data/
 +-- src/
@@ -239,7 +270,7 @@ AI-Native-CEO-Copilot/
 
 ## Current status
 
-**v0.3 — working executive workflows over a synthetic enterprise dataset.**
+**v0.6 — agentic operating model, executive workflows, observability and enterprise deployment reference.**
 
 The production version of CEO Copilot is developed separately. This repository exposes selected reference implementations, infrastructure experiments and demo workflows over time.
 
