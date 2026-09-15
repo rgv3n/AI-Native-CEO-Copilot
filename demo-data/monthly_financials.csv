@@ -1,0 +1,7 @@
+month,revenue_eur,direct_costs_eur,gross_profit_eur,gross_margin_pct,operating_expenses_eur,ebitda_eur,cash_balance_eur,accounts_receivable_eur,accounts_payable_eur,booked_revenue_target_eur,notes
+2026-04,870000,557000,313000,0.360,224000,89000,1180000,980000,510000,900000,"Baseline month; normal project mix."
+2026-05,910000,587000,323000,0.355,227000,96000,1120000,1040000,540000,920000,"Small margin pressure begins."
+2026-06,955000,630000,325000,0.340,231000,94000,1030000,1120000,575000,960000,"Higher material cost and overtime."
+2026-07,990000,673000,317000,0.320,238000,79000,930000,1260000,620000,1000000,"Margin decline broadens; receivables rising faster than revenue."
+2026-08,1015000,716000,299000,0.295,242000,57000,790000,1390000,655000,1040000,"Project mix worsens; delayed collections and unbilled change work."
+2026-09,1030000,747000,283000,0.275,246000,37000,680000,1510000,690000,1080000,"Current month estimate as of 2026-09-15; margin and cash under pressure."

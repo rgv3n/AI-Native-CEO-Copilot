@@ -12,21 +12,42 @@ This roadmap describes the public reference implementation, not the private prod
 
 ## v0.2 — Demo intelligence layer
 
-- [ ] Synthetic company dataset
-- [ ] Executive question schema
-- [ ] Finance agent interface
-- [ ] Sales agent interface
-- [ ] Operations agent interface
-- [ ] Tool contracts
-- [ ] Source-grounded response format
+- [x] Synthetic company dataset
+- [x] Executive question schema
+- [x] Finance agent interface
+- [x] Sales agent interface
+- [x] Operations agent interface
+- [x] Tool contracts
+- [x] Source-grounded response format
+
+Documentation and benchmark assets:
+
+- [`executive-question-schema.md`](executive-question-schema.md)
+- [`executive-golden-questions.md`](executive-golden-questions.md)
+- [`agent-interfaces.md`](agent-interfaces.md)
+- [`tool-contracts.md`](tool-contracts.md)
+- [`source-grounded-response-format.md`](source-grounded-response-format.md)
+- [`../demo-data/README.md`](../demo-data/README.md)
 
 ## v0.3 — Working executive workflows
 
-- [ ] Margin analysis demo
-- [ ] Cash-flow risk demo
-- [ ] Sales prioritization demo
-- [ ] Project risk demo
-- [ ] Human approval checkpoints
+- [x] Margin analysis demo
+- [x] Cash-flow risk demo
+- [x] Sales prioritization demo
+- [x] Project risk demo
+- [x] Human approval checkpoints
+
+Workflow examples:
+
+- [`../examples/margin-analysis/README.md`](../examples/margin-analysis/README.md)
+- [`../examples/margin-analysis/expected-output.md`](../examples/margin-analysis/expected-output.md)
+- [`../examples/cash-flow-risk/README.md`](../examples/cash-flow-risk/README.md)
+- [`../examples/cash-flow-risk/expected-output.md`](../examples/cash-flow-risk/expected-output.md)
+- [`../examples/sales-prioritization/README.md`](../examples/sales-prioritization/README.md)
+- [`../examples/sales-prioritization/expected-output.md`](../examples/sales-prioritization/expected-output.md)
+- [`../examples/project-risk/README.md`](../examples/project-risk/README.md)
+- [`../examples/project-risk/expected-output.md`](../examples/project-risk/expected-output.md)
+- [`human-approval-checkpoints.md`](human-approval-checkpoints.md)
 
 ## v0.4 — Observability
 

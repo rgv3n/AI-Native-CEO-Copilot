@@ -1,0 +1,9 @@
+customer_id,name,segment,country,annual_revenue_eur,gross_margin_pct,payment_terms_days,avg_payment_delay_days,relationship_health,strategic_importance,notes
+C001,Helios Packaging Group,Enterprise,Spain,2450000,0.31,60,24,watch,high,"Large strategic customer; strong revenue but margin pressure and repeated payment delays."
+C002,Alba Foods Manufacturing,Mid-market,Spain,1280000,0.38,45,8,healthy,medium,"Stable account with good payment behavior and normal support load."
+C003,Orion Mobility Components,Enterprise,France,1980000,0.22,60,41,risk,high,"High service burden, aggressive discounting and two projects with scope creep."
+C004,VerdeChem Iberia,Mid-market,Spain,940000,0.42,30,3,healthy,medium,"High-margin customer with low support burden."
+C005,Lusitania Pharma Systems,Enterprise,Portugal,1640000,0.35,60,18,watch,high,"Strategic customer; current project dependent on delayed supplier components."
+C006,NovaGlass Industries,Mid-market,Spain,760000,0.29,45,15,watch,medium,"Recent complaints on delivery dates; renewal decision due next quarter."
+C007,Teknia Robotics,Mid-market,Spain,620000,0.46,30,0,healthy,medium,"Smaller but highly profitable recurring-services customer."
+C008,Delta Water Engineering,Mid-market,Spain,510000,0.18,60,57,risk,low,"Low margin, high rework, materially overdue invoices."
