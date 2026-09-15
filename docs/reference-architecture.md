@@ -6,6 +6,10 @@ AI-Native CEO Copilot is a reference architecture for executive intelligence sys
 
 The goal is not to build another chatbot. The goal is to design a system that can help executives understand what is happening inside the company, explain why it is happening, identify risks and opportunities, and support better decisions while keeping humans in control of consequential actions.
 
+This document describes the public reference architecture. Production implementations are intentionally separated from the open repository because real enterprise deployments require organization-specific data models, integrations, policies, evaluation, security and infrastructure design.
+
+See [`enterprise-implementation.md`](enterprise-implementation.md) for the public/private implementation model and enterprise deployment approach.
+
 ---
 
 ## Architecture thesis
@@ -373,6 +377,8 @@ Relevant when data sovereignty, security, latency or infrastructure ownership ar
 
 Useful for organizations that want tighter control over inference economics, sensitive data and production workloads.
 
+For organization-specific production deployment, including data integration, governance, model routing, observability and NVIDIA infrastructure design, see [`enterprise-implementation.md`](enterprise-implementation.md).
+
 ---
 
 ## Example workflow: Why did gross margin fall this month?
@@ -436,6 +442,18 @@ The value is that the system gathered evidence across functions, reconciled it a
 8. **Infrastructure aware** — inference architecture affects cost, latency, privacy and scale.
 9. **Composable** — domain agents and tools should be replaceable without redesigning the full system.
 10. **Enterprise deployable** — security, governance and operational controls are first-class concerns.
+
+---
+
+## Open reference vs. production implementation
+
+This repository is deliberately the **open reference layer**.
+
+A production deployment may additionally require proprietary workflows, customer-specific integrations, private evaluation assets, production prompts and policies, deployment automation, operational runbooks and organization-specific infrastructure decisions.
+
+Those components are not required to understand the architecture and are intentionally not all published here.
+
+For implementation support, enterprise AI architecture or NVIDIA AI infrastructure design, contact **Rubén García / [CompaniesAutomation.com](https://companiesautomation.com/en)**.
 
 ---
 
