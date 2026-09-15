@@ -66,11 +66,19 @@ The public v0.4 layer defines the observability contracts and reference telemetr
 
 ## v0.5 — Enterprise deployment patterns
 
-- [ ] Role-based access patterns
-- [ ] Private deployment reference
-- [ ] Model-routing architecture
-- [ ] GPU inference deployment notes
-- [ ] Multi-tenant isolation principles
+- [x] Role-based access patterns
+- [x] Private deployment reference
+- [x] Model-routing architecture
+- [x] GPU inference deployment notes
+- [x] Multi-tenant isolation principles
+
+Enterprise deployment references:
+
+- [`enterprise-deployment-patterns.md`](enterprise-deployment-patterns.md)
+- [`model-routing.md`](model-routing.md)
+- [`nvidia-inference-deployment.md`](nvidia-inference-deployment.md)
+
+The public v0.5 layer defines deployment boundaries, access-control patterns, private and hybrid inference, workload-aware model routing, NVIDIA-oriented GPU inference patterns and tenant-isolation principles. Production implementation remains organization-specific.
 
 ## Direction
 
