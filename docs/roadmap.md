@@ -13,12 +13,19 @@ This roadmap describes the public reference implementation, not the private prod
 ## v0.2 — Demo intelligence layer
 
 - [ ] Synthetic company dataset
-- [ ] Executive question schema
-- [ ] Finance agent interface
-- [ ] Sales agent interface
-- [ ] Operations agent interface
-- [ ] Tool contracts
-- [ ] Source-grounded response format
+- [x] Executive question schema
+- [x] Finance agent interface
+- [x] Sales agent interface
+- [x] Operations agent interface
+- [x] Tool contracts
+- [x] Source-grounded response format
+
+Documentation:
+
+- [`executive-question-schema.md`](executive-question-schema.md)
+- [`agent-interfaces.md`](agent-interfaces.md)
+- [`tool-contracts.md`](tool-contracts.md)
+- [`source-grounded-response-format.md`](source-grounded-response-format.md)
 
 ## v0.3 — Working executive workflows
 
