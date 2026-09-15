@@ -30,6 +30,58 @@ Start here:
 
 The objective is not maximum autonomy. It is **maximum useful autonomy inside explicit governance boundaries**.
 
+## Autonomous Company Control Plane
+
+The next layer is how leadership governs that agentic organization.
+
+Instead of managing agents one by one, executives define:
+
+- objectives,
+- priorities,
+- policies,
+- risk tolerances,
+- authority boundaries,
+- and escalation rules.
+
+The control plane translates those instructions into shared operating context for the agents.
+
+```text
+CEO / Leadership
+      |
+      v
+Objectives + Policies + Constraints
+      |
+      v
+Autonomous Company Control Plane
+      |
+      +-----------+-----------+-----------+
+      |           |           |           |
+   Finance      Sales     Operations   Strategy
+     Agent       Agent       Agent       Agent
+      \           |           |           /
+       +----------+-----------+----------+
+                  |
+                  v
+        Coordinated company state
+                  |
+                  v
+       Exceptions + decision packets
+                  |
+          Human decision only
+            where required
+```
+
+Start with:
+
+- **[`docs/company-control-plane.md`](docs/company-control-plane.md)** — how leadership governs the agentic company
+- **[`docs/objective-policy-contract.md`](docs/objective-policy-contract.md)** — how executive intent becomes machine-readable policy
+- **[`docs/agent-coordination.md`](docs/agent-coordination.md)** — how specialized agents reconcile cross-functional problems
+- **[`docs/escalation-exception-handling.md`](docs/escalation-exception-handling.md)** — how scarce human attention is routed to material exceptions
+
+The CEO should not have to manage the agents individually.
+
+**The CEO manages objectives, limits and exceptions. The control plane manages the operational translation.**
+
 ## Reference Architecture v0.1
 
 The first public reference architecture is now available:
@@ -191,6 +243,7 @@ This public repository focuses on the parts useful for learning, evaluation and 
 - security principles,
 - observability patterns,
 - agentic operating-model patterns,
+- company control-plane patterns,
 - NVIDIA-oriented deployment patterns,
 - inference and infrastructure experiments.
 
@@ -238,6 +291,10 @@ AI-Native-CEO-Copilot/
 |   +-- agentic-operating-model.md
 |   +-- executive-operating-loop.md
 |   +-- autonomy-matrix.md
+|   +-- company-control-plane.md
+|   +-- objective-policy-contract.md
+|   +-- agent-coordination.md
+|   +-- escalation-exception-handling.md
 |   +-- enterprise-deployment-patterns.md
 |   +-- model-routing.md
 |   +-- nvidia-inference-deployment.md
@@ -270,7 +327,7 @@ AI-Native-CEO-Copilot/
 
 ## Current status
 
-**v0.6 — agentic operating model, executive workflows, observability and enterprise deployment reference.**
+**v0.7 — autonomous company control plane, agentic operating model, executive workflows, observability and enterprise deployment reference.**
 
 The production version of CEO Copilot is developed separately. This repository exposes selected reference implementations, infrastructure experiments and demo workflows over time.
 
