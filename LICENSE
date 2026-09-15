@@ -1,0 +1,55 @@
+PROPRIETARY LICENSE — ALL RIGHTS RESERVED
+
+Copyright (c) 2026 Rubén García.
+All rights reserved.
+
+This repository, including without limitation its source code, documentation,
+architecture, diagrams, schemas, workflows, examples, datasets, prompts,
+policies, concepts, designs, and other materials (collectively, the
+"Materials"), is proprietary.
+
+Permission is granted solely to view the Materials for personal evaluation,
+review, and informational purposes.
+
+NO OTHER RIGHTS ARE GRANTED.
+
+Without prior written permission from the copyright holder, you may NOT:
+
+- copy or reproduce the Materials, in whole or in part;
+- reuse the Materials in another project, product, service, repository,
+  presentation, training dataset, publication, or commercial offering;
+- modify, adapt, translate, transform, or create derivative works from the
+  Materials;
+- distribute, publish, sublicense, sell, rent, lease, transfer, or otherwise
+  make the Materials available to third parties;
+- use the Materials to build or improve a competing or substantially similar
+  product, architecture, system, service, or offering;
+- extract, replicate, or commercially exploit the repository's architecture,
+  workflows, schemas, decision models, operating models, or implementation
+  patterns;
+- use the Materials for model training, fine-tuning, retrieval corpora,
+  benchmarking datasets, or automated dataset creation;
+- remove, obscure, or alter copyright, attribution, proprietary, or legal
+  notices.
+
+No license is granted under any patent, trademark, trade secret, database
+right, or other intellectual-property right except the limited viewing right
+expressly stated above.
+
+Access to this repository does not transfer ownership of any intellectual
+property.
+
+Any use beyond viewing and evaluation requires prior written authorization
+from Rubén García.
+
+For commercial licensing, enterprise implementation, or written permission:
+https://companiesautomation.com/en
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM OR IN
+CONNECTION WITH THE MATERIALS OR THEIR USE.
+
+This license does not limit any rights that cannot lawfully be restricted under
+applicable law.
