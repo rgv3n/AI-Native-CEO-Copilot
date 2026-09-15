@@ -133,11 +133,11 @@ Validate the system against executive benchmark questions, expected evidence, un
 
 ---
 
-## CompaniesAutomation.com
+## companiesautomation.com/en
 
-The reference architecture is created and maintained by **Rubén García** as part of the AI engineering and enterprise automation work behind **CompaniesAutomation.com**.
+The reference architecture is created and maintained by **Rubén García** as part of the AI engineering and enterprise automation work behind **[companiesautomation.com/en](https://companiesautomation.com/en)**.
 
-CompaniesAutomation.com can help organizations design and implement production versions of this architecture, including:
+**[companiesautomation.com/en](https://companiesautomation.com/en)** can help organizations design and implement production versions of this architecture, including:
 
 - executive AI architecture,
 - agentic systems,
@@ -150,7 +150,7 @@ CompaniesAutomation.com can help organizations design and implement production v
 
 If you are evaluating this architecture for a real organization, implementation support is available at:
 
-**https://companiesautomation.com/en**
+**[companiesautomation.com/en](https://companiesautomation.com/en)**
 
 ---
 
