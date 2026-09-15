@@ -51,11 +51,18 @@ Workflow examples:
 
 ## v0.4 — Observability
 
-- [ ] Tool-call tracing
-- [ ] Latency and cost metrics
-- [ ] Source coverage
-- [ ] Failure handling
-- [ ] Confidence and evidence views
+- [x] Tool-call tracing
+- [x] Latency and cost metrics
+- [x] Source coverage
+- [x] Failure handling
+- [x] Confidence and evidence views
+
+Observability reference:
+
+- [`observability.md`](observability.md)
+- [`../examples/observability/margin-analysis-trace.json`](../examples/observability/margin-analysis-trace.json)
+
+The public v0.4 layer defines the observability contracts and reference telemetry model. Production instrumentation, dashboards and infrastructure-specific collectors remain implementation-specific.
 
 ## v0.5 — Enterprise deployment patterns
 

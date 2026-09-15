@@ -1,0 +1,157 @@
+{
+  "sample": true,
+  "description": "Illustrative observability trace for the public margin-analysis workflow. Values are synthetic and intended to demonstrate the contract, not measured production performance.",
+  "trace_id": "trace_margin_demo_001",
+  "question_id": "GQ-01",
+  "question": "Why did our gross margin fall this month?",
+  "company": "Northstar Industrial Systems S.L. (Synthetic company with realistic synthetic dataset)",
+  "status": "completed",
+  "workflow": {
+    "agents": [
+      "finance",
+      "operations",
+      "sales"
+    ],
+    "tool_calls": 8,
+    "model_calls": 6,
+    "sources_used": 11,
+    "warnings": 1,
+    "workflow_latency_ms": 6840,
+    "time_to_first_evidence_ms": 410,
+    "time_to_first_finding_ms": 1460,
+    "time_to_final_answer_ms": 6840
+  },
+  "economics": {
+    "input_tokens": 38240,
+    "output_tokens": 6480,
+    "cached_tokens": 12400,
+    "total_tokens": 44720,
+    "estimated_cost_eur": 0.61,
+    "note": "Illustrative values only. Actual economics depend on model, serving stack, caching, routing and deployment architecture."
+  },
+  "source_coverage": {
+    "expected_domains": [
+      "finance",
+      "operations",
+      "sales"
+    ],
+    "queried_domains": [
+      "finance",
+      "operations",
+      "sales"
+    ],
+    "critical_sources_available": 5,
+    "critical_sources_used": 5,
+    "coverage": 1.0,
+    "unsupported_material_claims": 0
+  },
+  "findings": [
+    {
+      "finding_id": "finding_001",
+      "type": "fact",
+      "statement": "Company gross margin declined from 36.0% in April to 27.5% in the current September estimate.",
+      "evidence": [
+        "demo-data/monthly_financials.csv:2026-04",
+        "demo-data/monthly_financials.csv:2026-09"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "finding_id": "finding_002",
+      "type": "risk",
+      "statement": "P002 is a major source of current margin pressure because forecast margin has fallen from 33% planned to 19%, with unresolved scope expansion and rework.",
+      "evidence": [
+        "demo-data/projects.csv:P002",
+        "demo-data/events.csv:E006"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "finding_id": "finding_003",
+      "type": "risk",
+      "statement": "P001 margin is being pressured by material inflation, overtime and unbilled change requests.",
+      "evidence": [
+        "demo-data/projects.csv:P001",
+        "demo-data/events.csv:E008"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "finding_004",
+      "type": "inference",
+      "statement": "The margin deterioration is cross-functional rather than attributable to one isolated accounting issue.",
+      "evidence": [
+        "demo-data/monthly_financials.csv",
+        "demo-data/projects.csv:P001",
+        "demo-data/projects.csv:P002",
+        "demo-data/projects.csv:P005",
+        "demo-data/projects.csv:P007"
+      ],
+      "confidence": 0.91
+    }
+  ],
+  "tool_traces": [
+    {
+      "tool_call_id": "tc_001",
+      "agent": "finance",
+      "tool": "monthly_financials.read",
+      "mode": "read",
+      "duration_ms": 72,
+      "status": "success",
+      "records_returned": 6,
+      "source_system": "synthetic_finance_dataset"
+    },
+    {
+      "tool_call_id": "tc_002",
+      "agent": "finance",
+      "tool": "project_financials.read",
+      "mode": "read",
+      "duration_ms": 84,
+      "status": "success",
+      "records_returned": 8,
+      "source_system": "synthetic_project_dataset"
+    },
+    {
+      "tool_call_id": "tc_003",
+      "agent": "operations",
+      "tool": "project_events.read",
+      "mode": "read",
+      "duration_ms": 93,
+      "status": "success",
+      "records_returned": 15,
+      "source_system": "synthetic_event_dataset"
+    },
+    {
+      "tool_call_id": "tc_004",
+      "agent": "operations",
+      "tool": "supplier_risk.read",
+      "mode": "read",
+      "duration_ms": 78,
+      "status": "success",
+      "records_returned": 6,
+      "source_system": "synthetic_supplier_dataset"
+    }
+  ],
+  "failure_and_warning_state": {
+    "partial": false,
+    "warnings": [
+      {
+        "type": "commercial_validation_required",
+        "message": "Unbilled scope-change value is recorded operationally but final recoverability from customers remains uncertain."
+      }
+    ],
+    "blocked_actions": []
+  },
+  "executive_observability": {
+    "answer_confidence": "high",
+    "data_coverage_pct": 100,
+    "data_freshness": "current synthetic snapshot",
+    "functions_analyzed": [
+      "Finance",
+      "Operations",
+      "Sales"
+    ],
+    "analysis_status": "complete",
+    "human_approval_required": false
+  }
+}
