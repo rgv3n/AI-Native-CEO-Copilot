@@ -96,6 +96,23 @@ Operating-model references:
 
 The public v0.6 layer translates the technical architecture into an executive operating model: specialized agents continuously observe, investigate, coordinate and prioritize company signals; humans retain authority for consequential decisions; selected low-risk workflows can progress toward policy-bounded autonomous execution.
 
+## v0.7 — Autonomous Company Control Plane
+
+- [x] Executive objectives and priorities
+- [x] Objective and policy contract
+- [x] Cross-agent coordination model
+- [x] Escalation and exception handling
+- [x] Company-level autonomy governance
+
+Control-plane references:
+
+- [`company-control-plane.md`](company-control-plane.md)
+- [`objective-policy-contract.md`](objective-policy-contract.md)
+- [`agent-coordination.md`](agent-coordination.md)
+- [`escalation-exception-handling.md`](escalation-exception-handling.md)
+
+The public v0.7 layer defines how leadership can govern a multi-agent organization through objectives, priorities, policies, risk tolerances and authority boundaries rather than manually dispatching work to individual agents. Agents coordinate against shared company intent and escalate only material exceptions where human judgment or authority creates value.
+
 ## Direction
 
 The goal is not to maximize feature count.
