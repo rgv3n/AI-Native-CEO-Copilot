@@ -113,8 +113,25 @@ Control-plane references:
 
 The public v0.7 layer defines how leadership can govern a multi-agent organization through objectives, priorities, policies, risk tolerances and authority boundaries rather than manually dispatching work to individual agents. Agents coordinate against shared company intent and escalate only material exceptions where human judgment or authority creates value.
 
+## v0.8 — Executive Decision Engine
+
+- [x] Decision framing
+- [x] Executive Decision Packet
+- [x] Scenario and trade-off analysis
+- [x] Recommendation ranking
+- [x] No-action and sensitivity analysis
+
+Decision-engine references:
+
+- [`executive-decision-engine.md`](executive-decision-engine.md)
+- [`executive-decision-packet.md`](executive-decision-packet.md)
+- [`scenario-tradeoff-model.md`](scenario-tradeoff-model.md)
+- [`recommendation-ranking.md`](recommendation-ranking.md)
+
+The public v0.8 layer converts material exceptions into structured executive decisions. It separates observed facts from scenarios, compares realistic options, makes trade-offs visible, includes the cost of doing nothing, ranks recommendations against company objectives and policies, and preserves human authority for consequential decisions.
+
 ## Direction
 
 The goal is not to maximize feature count.
 
-The goal is to build a clear reference for a new class of enterprise system: an AI-native executive intelligence and operating layer that can reason over company data, coordinate specialized agents, reduce manual organizational coordination and keep humans in control of consequential decisions.
+The goal is to build a clear reference for a new class of enterprise system: an AI-native executive intelligence and operating layer that can reason over company data, coordinate specialized agents, reduce manual organizational coordination and improve the quality and speed of executive decisions while keeping humans in control of consequential actions.
