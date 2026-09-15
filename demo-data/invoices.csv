@@ -1,0 +1,13 @@
+invoice_id,customer_id,project_id,invoice_date,due_date,amount_eur,amount_paid_eur,status,days_overdue,expected_collection_date,notes
+I001,C001,P001,2026-06-15,2026-08-14,280000,180000,partially_paid,32,2026-09-30,"Customer disputes part of change-order billing."
+I002,C001,P001,2026-07-31,2026-09-29,320000,0,open,0,2026-10-15,"Large milestone invoice not yet due."
+I003,C003,P002,2026-05-30,2026-07-29,260000,0,overdue,48,2026-10-10,"Payment delayed pending scope reconciliation."
+I004,C003,P002,2026-07-15,2026-09-13,240000,0,overdue,2,2026-10-20,"Customer requested revised commercial documentation."
+I005,C005,P003,2026-07-01,2026-08-30,210000,130000,partially_paid,16,2026-09-25,"Remaining amount delayed by internal approval."
+I006,C002,P004,2026-08-01,2026-09-15,180000,180000,paid,0,2026-09-12,"Paid slightly early."
+I007,C006,P005,2026-07-20,2026-09-03,145000,65000,partially_paid,12,2026-09-28,"Balance held while delivery complaint remains open."
+I008,C004,P006,2026-08-10,2026-09-09,135000,135000,paid,0,2026-09-08,"Normal payment behavior."
+I009,C008,P007,2026-05-15,2026-07-14,120000,0,overdue,63,2026-10-31,"Customer liquidity issue; repeated collection promises missed."
+I010,C008,P007,2026-07-01,2026-08-30,95000,0,overdue,16,2026-11-15,"Second overdue invoice increases exposure."
+I011,C007,P008,2026-08-15,2026-09-14,90000,90000,paid,0,2026-09-13,"Recurring-services customer pays reliably."
+I012,C005,P003,2026-09-01,2026-10-31,190000,0,open,0,2026-11-10,"Future-due milestone."
