@@ -1,0 +1,16 @@
+event_id,event_date,event_type,entity_type,entity_id,severity,summary,source
+E001,2026-09-15,customer_payment,customer,C008,high,"Delta Water missed another promised payment date; finance moved expected collection to late October.",collections
+E002,2026-09-15,sales_activity,opportunity,O007,medium,"Alba procurement requested final commercial terms; opportunity remains on track for September close.",crm
+E003,2026-09-14,supplier_delay,supplier,S003,high,"OptiVision confirmed an additional 9-day delay on critical machine-vision components for P003.",procurement
+E004,2026-09-14,customer_relationship,customer,C006,high,"NovaGlass escalated concerns about delivery slippage on P005 to the account director.",crm
+E005,2026-09-13,sales_activity,opportunity,O005,medium,"Aurea Metals completed technical validation and requested procurement onboarding documentation.",crm
+E006,2026-09-12,project_scope,project,P002,high,"Operations logged additional engineering work requested by Orion; commercial approval remains unresolved.",project_management
+E007,2026-09-12,customer_payment,customer,C001,medium,"Helios paid €80k against overdue invoice I001 but left €100k outstanding pending change-order discussion.",collections
+E008,2026-09-11,project_cost,project,P001,high,"P001 forecast margin reduced from 27% to 24% after updated drive pricing and overtime forecast.",project_control
+E009,2026-09-10,sales_forecast,opportunity,O002,high,"Orion Plant 2 close date moved for the fourth time; CRM probability remains at 75%.",crm
+E010,2026-09-09,operations,project,P004,low,"Alba MES project reported a four-day schedule slip with no material margin impact.",project_management
+E011,2026-09-08,customer_payment,customer,C004,low,"VerdeChem paid invoice I008 before due date.",collections
+E012,2026-09-08,project_quality,project,P007,high,"Delta Water retrofit recorded another rework incident, adding €6k estimated cost.",quality
+E013,2026-09-07,commercial,project,P005,medium,"NovaGlass scope change remains unbilled while delivery team continues implementation.",project_management
+E014,2026-09-05,supplier_pricing,supplier,S003,medium,"OptiVision announced an 11% year-on-year component price increase for Q4 deliveries.",procurement
+E015,2026-09-03,finance,company,,medium,"Treasury forecast indicates cash could fall below €500k within six weeks without improved collections.",finance
