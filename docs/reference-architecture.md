@@ -453,7 +453,7 @@ A production deployment may additionally require proprietary workflows, customer
 
 Those components are not required to understand the architecture and are intentionally not all published here.
 
-For implementation support, enterprise AI architecture or NVIDIA AI infrastructure design, contact **Rubén García / [CompaniesAutomation.com](https://companiesautomation.com/en)**.
+For implementation support, enterprise AI architecture or NVIDIA AI infrastructure design, contact **Rubén García / [companiesautomation.com/en](https://companiesautomation.com/en)**.
 
 ---
 
