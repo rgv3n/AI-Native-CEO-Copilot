@@ -130,8 +130,25 @@ Decision-engine references:
 
 The public v0.8 layer converts material exceptions into structured executive decisions. It separates observed facts from scenarios, compares realistic options, makes trade-offs visible, includes the cost of doing nothing, ranks recommendations against company objectives and policies, and preserves human authority for consequential decisions.
 
+## v0.9 — Continuous Executive Intelligence
+
+- [x] Continuous signal monitoring
+- [x] Materiality engine
+- [x] Executive signal routing
+- [x] Decision-trigger lifecycle
+- [x] Management-by-exception continuous loop
+
+Continuous-intelligence references:
+
+- [`continuous-executive-intelligence.md`](continuous-executive-intelligence.md)
+- [`materiality-engine.md`](materiality-engine.md)
+- [`executive-signal-routing.md`](executive-signal-routing.md)
+- [`decision-trigger-lifecycle.md`](decision-trigger-lifecycle.md)
+
+The public v0.9 layer turns the architecture from reactive executive Q&A into continuous executive intelligence. The system observes business change, evaluates materiality, investigates before interrupting leadership, routes issues to the lowest appropriate authority and creates decision triggers only when the state of the business changes enough to justify action or judgment.
+
 ## Direction
 
 The goal is not to maximize feature count.
 
-The goal is to build a clear reference for a new class of enterprise system: an AI-native executive intelligence and operating layer that can reason over company data, coordinate specialized agents, reduce manual organizational coordination and improve the quality and speed of executive decisions while keeping humans in control of consequential actions.
+The goal is to build a clear reference for a new class of enterprise system: an AI-native executive intelligence and operating layer that can reason over company data, coordinate specialized agents, reduce manual organizational coordination, continuously identify material business change and improve the quality and speed of executive decisions while keeping humans in control of consequential actions.
