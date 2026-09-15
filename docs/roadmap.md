@@ -31,11 +31,16 @@ Documentation and benchmark assets:
 
 ## v0.3 — Working executive workflows
 
-- [ ] Margin analysis demo
+- [x] Margin analysis demo
 - [ ] Cash-flow risk demo
 - [ ] Sales prioritization demo
 - [ ] Project risk demo
 - [ ] Human approval checkpoints
+
+Workflow examples:
+
+- [`../examples/margin-analysis/README.md`](../examples/margin-analysis/README.md)
+- [`../examples/margin-analysis/expected-output.md`](../examples/margin-analysis/expected-output.md)
 
 ## v0.4 — Observability
 
