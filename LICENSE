@@ -22,15 +22,34 @@ Without prior written permission from the copyright holder, you may NOT:
   Materials;
 - distribute, publish, sublicense, sell, rent, lease, transfer, or otherwise
   make the Materials available to third parties;
-- use the Materials to build or improve a competing or substantially similar
-  product, architecture, system, service, or offering;
+- use the Materials to build, reconstruct, reproduce, imitate, improve, or
+  assist in creating a competing, derivative, or substantially similar
+  product, architecture, system, service, workflow, or offering;
 - extract, replicate, or commercially exploit the repository's architecture,
   workflows, schemas, decision models, operating models, or implementation
   patterns;
-- use the Materials for model training, fine-tuning, retrieval corpora,
-  benchmarking datasets, or automated dataset creation;
+- submit, upload, ingest, index, embed, or otherwise provide the Materials to
+  an AI system, large language model, coding assistant, agent, retrieval system,
+  vector database, or other automated system for the purpose of generating,
+  reconstructing, implementing, adapting, improving, or operating a competing,
+  derivative, or substantially similar system;
+- use the Materials as prompts, context, retrieval-augmented generation (RAG)
+  content, embeddings, examples, instructions, specifications, or reference
+  material for automated generation of code, architecture, workflows, agents,
+  policies, schemas, documentation, or other derivative implementations;
+- use the Materials for model training, pre-training, fine-tuning, distillation,
+  evaluation, benchmarking corpora, synthetic-data generation, retrieval
+  corpora, or automated dataset creation;
+- use automated extraction, scraping, crawling, bulk downloading, mirroring,
+  or systematic collection of the Materials for reuse or machine processing;
 - remove, obscure, or alter copyright, attribution, proprietary, or legal
   notices.
+
+For clarity, ordinary human viewing and evaluation of the repository is
+permitted. Use of general-purpose search engines, browsers, accessibility
+software, or AI tools merely to summarize or explain the Materials for the
+viewer's own evaluation does not grant any right to reproduce, implement,
+commercialize, or create derivative systems from the Materials.
 
 No license is granted under any patent, trademark, trade secret, database
 right, or other intellectual-property right except the limited viewing right
