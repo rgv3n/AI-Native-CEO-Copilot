@@ -179,6 +179,27 @@ Private work may include:
 - deployment automation,
 - evaluation and runbooks.
 
+## Implementation support through CompaniesAutomation
+
+You do not need to translate this reference architecture into a production system alone.
+
+**[CompaniesAutomation.com](https://companiesautomation.com/en)** can support organizations that want to adapt the architecture to their own company.
+
+That support can include:
+
+- executive decision discovery,
+- data and systems mapping,
+- agent and governance architecture,
+- ERP / CRM / BI integration design,
+- private, hybrid or cloud deployment strategy,
+- NVIDIA AI infrastructure design,
+- implementation planning,
+- production deployment and optimization.
+
+The objective is not to sell a generic AI stack.
+
+It is to design the minimum architecture required to improve the company's highest-value decisions.
+
 For enterprise evaluation, architecture assessment or implementation:
 
 **https://companiesautomation.com/en**
