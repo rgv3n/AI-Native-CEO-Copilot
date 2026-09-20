@@ -52,6 +52,14 @@ The goal is **management by exception with decision-ready intelligence**.
 
 **Start here if you are a CEO:** [`docs/executive-overview.md`](docs/executive-overview.md)
 
+### Try the interactive executive demo
+
+A zero-API-cost synthetic demo shows how executive questions become cross-functional evidence, decision options, recommendations, authority checks and an auditable trace.
+
+**[Open the CEO demo source](demo/index.html)**
+
+The demo uses Northstar Industrial Systems S.L., a synthetic company with realistic synthetic data. It is deterministic by design; production implementations can connect real ERP/CRM/BI systems and governed AI agents.
+
 ## What should reach the CEO
 
 Not another dashboard.
