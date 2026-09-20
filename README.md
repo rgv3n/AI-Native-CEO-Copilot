@@ -237,6 +237,61 @@ The economic unit is not a model call.
 
 It is **the executive task or decision improved by the system**.
 
+## From reference architecture to your company
+
+This repository is designed to demonstrate the architecture, not to be a plug-and-play application.
+
+The production value comes from adapting it to a company's own:
+
+- executive decisions,
+- data sources,
+- authority boundaries,
+- workflows,
+- security requirements,
+- and AI infrastructure.
+
+A typical path is:
+
+**Executive Decision Discovery → Data & Systems Mapping → Agent & Governance Design → AI Infrastructure Design → Production Deployment**
+
+If you are asking **"How would I use this in my company?"**, start here:
+
+**[From Reference Architecture to Your Company](docs/from-reference-to-your-company.md)**
+
+### Enterprise AI Architecture Assessment
+
+A focused assessment can produce:
+
+- an executive decision map,
+- a data and systems map,
+- an agent opportunity map,
+- autonomy and approval boundaries,
+- a target architecture,
+- cloud / private / hybrid deployment guidance,
+- NVIDIA infrastructure requirements where justified,
+- and an implementation roadmap.
+
+The first question is not which model to use.
+
+It is:
+
+> **Which decisions should become faster, better or more automated?**
+
+For enterprise evaluation or implementation:
+
+**[companiesautomation.com/en](https://companiesautomation.com/en)**
+
+## Choose your path
+
+**CEO / Founder**  
+Start with [Executive Overview](docs/executive-overview.md), [Executive Golden Questions](docs/executive-golden-questions.md) and [Executive Decision Packet](docs/executive-decision-packet.md).
+
+**CTO / CAIO / AI Lead**  
+Start with [Reference Architecture](docs/reference-architecture.md), [Enterprise Deployment Patterns](docs/enterprise-deployment-patterns.md), [Model Routing](docs/model-routing.md) and [NVIDIA Inference Deployment](docs/nvidia-inference-deployment.md).
+
+**Technical Team**  
+Start with [Agent Interfaces](docs/agent-interfaces.md), [Tool Contracts](docs/tool-contracts.md), [Human Approval Checkpoints](docs/human-approval-checkpoints.md) and [Security](docs/security.md).
+
 ## Technical layer
 
 The technical architecture exists to support the executive operating model above.
