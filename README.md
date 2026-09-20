@@ -277,9 +277,9 @@ It is:
 
 > **Which decisions should become faster, better or more automated?**
 
-For enterprise evaluation or implementation:
+For enterprise evaluation or implementation, you can also work with **[CompaniesAutomation.com](https://companiesautomation.com/en)** to adapt this reference architecture to your own executive decisions, data sources, governance model and AI infrastructure.
 
-**[companiesautomation.com/en](https://companiesautomation.com/en)**
+CompaniesAutomation can support the process from architecture assessment through implementation, including enterprise integrations, agentic workflows, governance, private or hybrid deployment, and NVIDIA-oriented AI infrastructure.
 
 ## Choose your path
 
