@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI-Native CEO Copilot — Executive Demo</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2f;--panel2:#18223d;--text:#eef3ff;--muted:#9fb0d0;--line:#283756;--accent:#76b900;--warn:#ffcc66;--danger:#ff7b7b;--ok:#82e6a2}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:linear-gradient(180deg,#090e1b,#0f1730);color:var(--text)}
+.wrap{max-width:1180px;margin:auto;padding:28px}.top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:12px}.title{font-size:40px;line-height:1.05;margin:8px 0 12px}.sub{color:var(--muted);max-width:780px;line-height:1.6}.badge{border:1px solid var(--line);background:#0f1730;border-radius:999px;padding:9px 14px;color:var(--muted);white-space:nowrap}
+.grid{display:grid;grid-template-columns:320px 1fr;gap:18px;margin-top:24px}.card{background:rgba(18,26,47,.94);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.18)}
+h2{font-size:16px;margin:0 0 12px}button{width:100%;text-align:left;padding:13px 14px;margin:8px 0;border-radius:12px;border:1px solid var(--line);background:var(--panel2);color:var(--text);cursor:pointer;font-weight:700}
+button:hover,button.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}.small{font-size:12px;color:var(--muted);font-weight:500;display:block;margin-top:4px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:14px}.kpi{background:#0f1730;border:1px solid var(--line);border-radius:14px;padding:14px}.kpi b{font-size:23px;display:block}.kpi span{color:var(--muted);font-size:12px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.step{padding:8px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px}.step.on{color:#071105;background:var(--accent);border-color:var(--accent);font-weight:800}
+.section{margin-top:18px}.section h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}.issue{font-size:24px;font-weight:800;line-height:1.25}.why{color:#dce6ff;line-height:1.6}
+.evidence{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.ev{border:1px solid var(--line);border-radius:12px;padding:12px;background:#0f1730}.ev strong{display:block;margin-bottom:4px}.ev span{font-size:12px;color:var(--muted)}
+.options{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.opt{border:1px solid var(--line);border-radius:12px;padding:13px;background:#0f1730}.opt.recommended{border-color:var(--accent)}.opt b{display:block;margin-bottom:6px}.opt p{margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+.rec{border-left:4px solid var(--accent);padding:14px 16px;background:#101a25;border-radius:10px}.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}.meta div{border-top:1px solid var(--line);padding-top:10px}.meta b{display:block}.meta span{color:var(--muted);font-size:12px}
+.audit{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#070b14;border:1px solid var(--line);border-radius:12px;padding:13px;color:#b9c8e8;font-size:12px;line-height:1.7}
+.cta{margin-top:22px;padding:18px;border:1px solid var(--accent);border-radius:14px;background:rgba(118,185,0,.08)}.cta a{color:var(--text);font-weight:800}
+.note{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.5}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.kpis,.evidence,.options,.meta{grid-template-columns:1fr 1fr}.top{display:block}.badge{display:inline-block;margin-top:14px}}@media(max-width:560px){.kpis,.evidence,.options,.meta{grid-template-columns:1fr}.title{font-size:32px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <div class="eyebrow">Synthetic Executive Demo</div>
+      <div class="title">AI-Native CEO Copilot</div>
+      <div class="sub">See how an executive question becomes a cross-functional investigation, evidence reconciliation and a decision-ready packet. No external AI API is used in this public demo.</div>
+    </div>
+    <div class="badge">Northstar Industrial Systems S.L. · synthetic</div>
+  </div>
+
+  <div class="grid">
+    <aside class="card">
+      <h2>Ask an executive question</h2>
+      <button class="q active" data-id="attention">What deserves my attention today?<span class="small">Cross-functional executive scan</span></button>
+      <button class="q" data-id="margin">Why is gross margin deteriorating?<span class="small">Finance + Operations</span></button>
+      <button class="q" data-id="cash">Where is cash getting trapped?<span class="small">Finance + Sales</span></button>
+      <button class="q" data-id="pipeline">Which sales opportunity is overstated?<span class="small">Sales + Finance + Operations</span></button>
+
+      <div class="section">
+        <h3>Agent activity</h3>
+        <div class="flow">
+          <div class="step on">Finance ✓</div>
+          <div class="step on">Sales ✓</div>
+          <div class="step on">Operations ✓</div>
+          <div class="step on">Policy ✓</div>
+          <div class="step on">Decision Engine ✓</div>
+        </div>
+      </div>
+
+      <div class="note">This is a deterministic public demonstration over synthetic data. Production systems can replace these demo routines with real ERP/CRM/BI connectors, governed agents, model routing and private inference.</div>
+    </aside>
+
+    <main>
+      <div class="kpis">
+        <div class="kpi"><b id="k1">19%</b><span id="k1l">Orion project GM</span></div>
+        <div class="kpi"><b id="k2">€88k</b><span id="k2l">Unbilled scope</span></div>
+        <div class="kpi"><b id="k3">€260k</b><span id="k3l">Overdue exposure</span></div>
+        <div class="kpi"><b id="k4">E3</b><span id="k4l">Executive decision</span></div>
+      </div>
+
+      <div class="card">
+        <div class="section">
+          <h3>Executive issue</h3>
+          <div class="issue" id="issue"></div>
+        </div>
+
+        <div class="section">
+          <h3>Why it matters</h3>
+          <div class="why" id="why"></div>
+        </div>
+
+        <div class="section">
+          <h3>Evidence reconciled across functions</h3>
+          <div class="evidence" id="evidence"></div>
+        </div>
+
+        <div class="section">
+          <h3>Decision options</h3>
+          <div class="options" id="options"></div>
+        </div>
+
+        <div class="section">
+          <h3>Recommendation</h3>
+          <div class="rec" id="recommendation"></div>
+          <div class="meta">
+            <div><span>Confidence</span><b id="confidence"></b></div>
+            <div><span>Authority</span><b id="authority"></b></div>
+            <div><span>Urgency</span><b id="urgency"></b></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Trace</h3>
+          <div class="audit" id="audit"></div>
+        </div>
+
+        <div class="cta">
+          <b>What would this look like with your company data?</b>
+          <div class="why">CompaniesAutomation can help map your executive decisions, data sources, governance boundaries and AI infrastructure, then turn the architecture into a production implementation.</div>
+          <div style="margin-top:8px"><a href="https://companiesautomation.com/en" target="_blank" rel="noopener">Explore CompaniesAutomation.com →</a></div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+const cases = {
+attention:{
+ k:["19%","Orion project GM","€88k","Unbilled scope","€260k","Overdue exposure","E3","Executive decision"],
+ issue:"Project Orion requires executive attention because margin deterioration, unbilled scope and overdue exposure are reinforcing each other.",
+ why:"Operations accepted scope before commercial approval. Finance sees margin falling from 33% to 19% and €88k not yet billed. Sales also carries a €1.45M opportunity whose stated probability is stale. The same customer is now affecting profitability, liquidity and forecast quality.",
+ evidence:[
+  ["Finance","Gross margin fell from 33% to 19%.","Direct project financials"],
+  ["Operations","€130k scope growth; €88k remains unbilled.","Project controls"],
+  ["Sales","€1.45M opportunity moved close date four times.","CRM activity"]
+ ],
+ options:[
+  ["A · Pause unapproved work","Stops further exposure quickly, but raises customer and delivery risk."],
+  ["B · 48h change order","Continue only if commercial scope is signed within 48 hours. Balances continuity, margin and cash."],
+  ["C · Continue as-is","Minimizes immediate friction but increases financial exposure and weakens governance."]
+ ],
+ recommendation:"Prefer Option B: require a signed change order within 48 hours before further out-of-scope work accumulates. Escalate to the CEO because the remaining trade-off is commercial relationship risk versus margin and cash protection.",
+ confidence:"87%",authority:"CEO / Commercial authority",urgency:"48 hours",
+ audit:["signal: margin deterioration","finance_agent: 3 evidence items","operations_agent: 2 evidence items","sales_agent: 2 evidence items","policy: margin + liquidity objectives affected","materiality: E3 executive decision","decision_packet: generated"]
+},
+margin:{
+ k:["27.5%","Company GM Sep est.","19%","Orion GM","21%","NovaGlass GM","11%","Delta GM"],
+ issue:"Gross margin is deteriorating because several projects are absorbing scope, rework and delivery costs faster than revenue is being protected.",
+ why:"The deterioration is not explained by one company-wide pricing event. It is concentrated in projects with scope growth, rework and weak commercial control, led by Orion, Delta and NovaGlass.",
+ evidence:[
+  ["Finance","Company GM moved from 36% in April to 27.5% Sep estimate.","Monthly financials"],
+  ["Operations","Orion fell 33% → 19%; Delta 18% → 11%.","Project performance"],
+  ["Commercial control","Unbilled or weakly approved scope is present in the highest-risk projects.","Project / billing data"]
+ ],
+ options:[
+  ["A · Portfolio intervention","Freeze discretionary scope in red projects and review commercial approvals."],
+  ["B · Targeted recovery","Start with Orion + Delta, where impact and recoverability are highest."],
+  ["C · Observe","Wait for month close; lowest disruption but highest risk of further leakage."]
+ ],
+ recommendation:"Prefer targeted recovery on Orion and Delta first, with a company-wide scope-control rule prepared in parallel.",
+ confidence:"84%",authority:"COO + CFO; CEO if customer concession required",urgency:"This week",
+ audit:["signal: company GM trajectory","finance_agent: portfolio scan","operations_agent: project ranking","policy: margin protection","materiality: E2/E3 mixed","decision_packet: generated"]
+},
+cash:{
+ k:["€680k","Sep cash est.","€1.51M","Accounts receivable","€260k","Orion overdue","€120k","Delta 63d overdue"],
+ issue:"Cash is increasingly trapped in receivables and unbilled project scope rather than in a revenue shortfall.",
+ why:"Revenue is growing, but cash is falling while AR rises. Orion and Delta are the most urgent exposures, and project scope that has not been commercially closed is delaying conversion of work into cash.",
+ evidence:[
+  ["Finance","Cash declined from €1.18M in April to €680k Sep estimate.","Monthly financials"],
+  ["Receivables","AR rose from €980k to €1.51M.","Ledger trend"],
+  ["Projects","Orion includes €88k of unbilled scope alongside overdue invoices.","Project + invoice data"]
+ ],
+ options:[
+  ["A · Collections sprint","Escalate Orion and Delta collections immediately."],
+  ["B · Cash + scope recovery","Collections plus change-order closure on unbilled work."],
+  ["C · Financing buffer","Add liquidity buffer without fixing operating causes."]
+ ],
+ recommendation:"Prefer Option B. Treat collections and commercial scope closure as one cash-recovery workflow instead of two separate departmental problems.",
+ confidence:"91%",authority:"CFO; CEO for strategic customer concessions",urgency:"Immediate",
+ audit:["signal: cash forecast below buffer","finance_agent: AR concentration","operations_agent: unbilled scope","sales_agent: customer context","materiality: E3 liquidity","decision_packet: generated"]
+},
+pipeline:{
+ k:["€1.45M","Orion opportunity","75%","CRM probability","4×","Close-date moves","Low","Recent engagement"],
+ issue:"The Orion €1.45M opportunity is likely overstated relative to the evidence currently available.",
+ why:"The CRM probability remains 75%, but the close date has moved four times, recent engagement is low, and the same customer already has overdue exposure and unresolved project scope. Forecast confidence should therefore be reduced until fresh evidence appears.",
+ evidence:[
+  ["Sales","CRM probability remains 75%.","CRM"],
+  ["Sales activity","Close date moved four times with low recent engagement.","CRM history"],
+  ["Finance / Ops","Existing customer exposure and unresolved scope increase execution risk.","Cross-functional evidence"]
+ ],
+ options:[
+  ["A · Keep 75%","Preserves headline pipeline but weakens forecast quality."],
+  ["B · Reclassify","Reduce forecast confidence pending a concrete customer event."],
+  ["C · Remove","Conservative, but may understate a still-live strategic opportunity."]
+ ],
+ recommendation:"Prefer Option B: keep the opportunity active but downgrade forecast confidence until a dated customer commitment or procurement event is observed.",
+ confidence:"88%",authority:"Sales leadership",urgency:"Before next forecast",
+ audit:["signal: stale opportunity","sales_agent: engagement analysis","finance_agent: exposure check","operations_agent: delivery context","policy: forecast quality","decision_packet: generated"]
+}
+};
+function render(id){
+ document.querySelectorAll('.q').forEach(x=>x.classList.toggle('active',x.dataset.id===id));
+ const c=cases[id];
+ ["k1","k1l","k2","k2l","k3","k3l","k4","k4l"].forEach((x,i)=>document.getElementById(x).textContent=c.k[i]);
+ issue.textContent=c.issue; why.textContent=c.why;
+ evidence.innerHTML=c.evidence.map(x=>'<div class="ev"><strong>'+x[0]+'</strong>'+x[1]+'<span>'+x[2]+'</span></div>').join('');
+ options.innerHTML=c.options.map((x,i)=>'<div class="opt '+(i===1?'recommended':'')+'"><b>'+x[0]+'</b><p>'+x[1]+'</p></div>').join('');
+ recommendation.textContent=c.recommendation; confidence.textContent=c.confidence; authority.textContent=c.authority; urgency.textContent=c.urgency;
+ audit.innerHTML=c.audit.map(x=>'✓ '+x).join('<br>');
+}
+document.querySelectorAll('.q').forEach(b=>b.addEventListener('click',()=>render(b.dataset.id)));
+render('attention');
+</script>
+</body>
+</html>
