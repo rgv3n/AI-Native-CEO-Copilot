@@ -52,6 +52,16 @@ The goal is **management by exception with decision-ready intelligence**.
 
 **Start here if you are a CEO:** [`docs/executive-overview.md`](docs/executive-overview.md)
 
+### Use this repository with ChatGPT or Claude
+
+You can use this repository as an **executive operating framework inside your own AI assistant**.
+
+Give ChatGPT or Claude the repository as reference context, add your current company situation or approved company data, and ask questions about strategy, finance, sales, operations, risk, priorities, decisions, automation or AI infrastructure.
+
+The assistant should use the repository to structure the analysis, separate facts from inference, surface missing evidence, compare options and trade-offs, and return decision-ready answers rather than generic advice.
+
+**[How to use this repository with ChatGPT or Claude](docs/use-with-chatgpt-or-claude.md)**
+
 ### Try the interactive executive demo
 
 A zero-API-cost synthetic demo shows how executive questions become cross-functional evidence, decision options, recommendations, authority checks and an auditable trace.
