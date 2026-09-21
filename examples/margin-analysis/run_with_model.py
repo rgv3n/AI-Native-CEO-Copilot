@@ -166,6 +166,9 @@ def main() -> None:
 
     trace = {
         "measured": True,
+        "demo_status": "synthetic_business_data_real_model_execution",
+        "business_data_is_real": False,
+        "business_data_source": "synthetic Northstar Industrial Systems S.L. demo dataset",
         "generated_at_unix": time.time(),
         "question": "Why did our gross margin fall this month?",
         "model": model,
@@ -182,6 +185,7 @@ def main() -> None:
         },
         "model_calls": call_records,
         "final_answer": final_answer,
+        "disclosure": "Business data is synthetic. Model/API measurements are real only when this script is executed against a live endpoint.",
         "limitations": [
             "This measures model/API latency, not GPU telemetry unless the endpoint operator correlates the trace with infrastructure metrics.",
             "Provider token usage fields vary; unsupported fields are recorded as zero.",
