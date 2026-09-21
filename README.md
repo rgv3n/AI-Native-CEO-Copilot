@@ -286,6 +286,12 @@ If you are asking **"How would I use this in my company?"**, start here:
 
 ### Enterprise AI Architecture Assessment
 
+If you are evaluating this for a real company, the next step is not another document.
+
+It is to identify **one executive decision worth improving**, map the evidence required to support it, and determine the smallest reliable architecture needed to run it in production.
+
+**[Open the Enterprise AI Architecture Assessment](docs/enterprise-ai-architecture-assessment.md)**
+
 A focused assessment can produce:
 
 - an executive decision map,
@@ -303,9 +309,7 @@ It is:
 
 > **Which decisions should become faster, better or more automated?**
 
-For enterprise evaluation or implementation, you can also work with **[CompaniesAutomation.com](https://companiesautomation.com/en)** to adapt this reference architecture to your own executive decisions, data sources, governance model and AI infrastructure.
-
-CompaniesAutomation can support the process from architecture assessment through implementation, including enterprise integrations, agentic workflows, governance, private or hybrid deployment, and NVIDIA-oriented AI infrastructure.
+For enterprise evaluation or implementation, work with **[CompaniesAutomation.com](https://companiesautomation.com/en)** to adapt this reference architecture to your own executive decisions, data sources, governance model and AI infrastructure.
 
 ## Choose your path
 
@@ -428,7 +432,7 @@ Synthetic demo workflows are available under [`examples/`](examples/) and [`demo
 
 The public reference currently includes:
 
-- working executive workflows,
+- documented executive workflows plus an executable public margin-analysis workflow,
 - observability contracts,
 - enterprise deployment patterns,
 - agentic operating model,
