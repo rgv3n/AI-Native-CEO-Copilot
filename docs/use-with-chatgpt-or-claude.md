@@ -63,6 +63,14 @@ Your own company information provides the situation being analyzed.
 
 ---
 
+## Fastest way to start
+
+Copy the [`CEO Master Prompt`](ceo-master-prompt.md) into ChatGPT or Claude, then describe what is happening in your company.
+
+The prompt instructs the assistant to use this repository as the operating framework, ask only the missing high-value questions, and stop the discovery process once it has enough context to produce a useful executive analysis.
+
+---
+
 ## How to use it
 
 ### Option 1 — Give the assistant the repository URL
