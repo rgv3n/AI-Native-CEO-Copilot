@@ -182,6 +182,8 @@ The objective is not simply to minimize tokens.
 
 A more expensive workflow may be justified if it creates materially better decision quality or reduces human analytical effort.
 
+For an executable cost-allocation model covering managed token pricing and private GPU-time allocation, see [`executive-workflow-economics.md`](executive-workflow-economics.md) and [`../examples/observability/workflow_economics.py`](../examples/observability/workflow_economics.py).
+
 ---
 
 ## 5. Source coverage
