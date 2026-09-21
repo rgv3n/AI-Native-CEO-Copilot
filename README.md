@@ -8,7 +8,7 @@ AI-Native CEO Copilot explores a simple idea:
 
 The system is designed to continuously observe company signals, investigate material changes, reconcile evidence across Finance, Sales, Operations, Strategy and Research, and escalate only the decisions that deserve executive attention.
 
-![AI-Native CEO Copilot architecture](ceo-copilot-architecture(4).jpg)
+![AI-Native CEO Copilot architecture](ceo-copilot-architecture.jpg)
 
 > **PROPRIETARY — ALL RIGHTS RESERVED.** Public visibility grants viewing and evaluation rights only. Copying, reuse, redistribution, derivative implementation and unauthorized AI-assisted reconstruction are prohibited. See [`LICENSE`](LICENSE).
 
@@ -90,6 +90,14 @@ python3 examples/margin-analysis/run.py --json
 ```
 
 This public executable deliberately makes **zero model calls**. That makes the business logic and evidence path reproducible without API keys or inference cost. In a production deployment, the same workflow boundary can be instrumented with model calls, token usage, cache hits, endpoint latency, GPU utilization and **cost per executive workflow**.
+
+An optional measured demo runner is also available:
+
+```bash
+python3 examples/margin-analysis/run_with_model.py
+```
+
+It uses the same **synthetic Northstar business data**, but when connected to a live OpenAI-compatible endpoint it records real model/API latency and provider-reported token usage. Any measured trace must remain clearly labeled as **synthetic business data + real model execution**, not as a real customer case.
 
 See [`examples/margin-analysis/`](examples/margin-analysis/) and the illustrative production-style telemetry contract in [`examples/observability/margin-analysis-trace.json`](examples/observability/margin-analysis-trace.json).
 
