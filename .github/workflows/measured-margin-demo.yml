@@ -1,0 +1,71 @@
+name: Measured margin demo
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: OpenAI-compatible API base URL
+        required: true
+        default: https://api.openai.com/v1
+      model:
+        description: Model identifier
+        required: true
+      input_eur_per_million:
+        description: Optional input-token EUR per 1M
+        required: false
+      output_eur_per_million:
+        description: Optional output-token EUR per 1M
+        required: false
+      cached_eur_per_million:
+        description: Optional cached-token EUR per 1M
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run measured synthetic-business demo
+        env:
+          AI_BASE_URL: ${{ inputs.base_url }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ inputs.model }}
+          AI_INPUT_EUR_PER_MILLION: ${{ inputs.input_eur_per_million }}
+          AI_OUTPUT_EUR_PER_MILLION: ${{ inputs.output_eur_per_million }}
+          AI_CACHED_EUR_PER_MILLION: ${{ inputs.cached_eur_per_million }}
+        run: |
+          test -n "$AI_API_KEY" || (echo "Missing repository secret AI_API_KEY" && exit 1)
+          python3 examples/margin-analysis/run_with_model.py
+          mv examples/observability/measured-margin-model-trace.json examples/observability/margin-analysis-trace.measured.json
+
+      - name: Verify disclosure
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("examples/observability/margin-analysis-trace.measured.json")
+          data = json.loads(p.read_text())
+          assert data["business_data_is_real"] is False
+          assert data["measured"] is True
+          print("Verified: synthetic business data + measured live model execution")
+          PY
+
+      - name: Upload measured trace artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: margin-analysis-trace-measured
+          path: examples/observability/margin-analysis-trace.measured.json
+
+      - name: Commit measured trace
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add examples/observability/margin-analysis-trace.measured.json
+          git commit -m "Add measured margin model trace" || exit 0
+          git push
