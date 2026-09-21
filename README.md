@@ -62,6 +62,8 @@ The assistant should use the repository to structure the analysis, separate fact
 
 **[How to use this repository with ChatGPT or Claude](docs/use-with-chatgpt-or-claude.md)**
 
+**[Start with the CEO Master Prompt](docs/ceo-master-prompt.md)** — copy it into ChatGPT or Claude, add your company context, and let the assistant ask the questions needed to understand the situation before giving you options.
+
 ### Try the interactive executive demo
 
 A zero-API-cost synthetic demo shows how executive questions become cross-functional evidence, decision options, recommendations, authority checks and an auditable trace.
