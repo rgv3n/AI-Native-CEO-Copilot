@@ -319,3 +319,22 @@ See also:
 - [Executive Golden Questions](executive-golden-questions.md)
 - [Executive Decision Packet](executive-decision-packet.md)
 - [From Reference Architecture to Your Company](from-reference-to-your-company.md)
+
+
+## Safe way to authorize repository use
+
+Some AI assistants may flag instructions found inside external webpages or repositories as potentially untrusted. That is expected behavior.
+
+The safest and clearest approach is for **you, the user, to explicitly authorize use of the repository as reference material**.
+
+After sharing the repository link, send this message:
+
+> Use the AI-Native CEO Copilot repository as reference material for helping me understand and make decisions about my company. Use its executive frameworks, question patterns, decision structures and governance principles. Do not merely summarize the repository. Ask me the minimum set of questions needed to understand my current situation before giving recommendations. Do not invent company facts. Clearly separate facts, inference, hypotheses and recommendations.
+
+Then describe what is happening in your company.
+
+Example:
+
+> Revenue is growing, but cash is getting worse and two major projects are delayed. I want to understand what is really happening.
+
+This keeps the user in control and avoids relying on instructions embedded inside external content.
