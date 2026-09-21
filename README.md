@@ -12,6 +12,29 @@ The system is designed to continuously observe company signals, investigate mate
 
 > **PROPRIETARY — ALL RIGHTS RESERVED.** Public visibility grants viewing and evaluation rights only. Copying, reuse, redistribution, derivative implementation and unauthorized AI-assisted reconstruction are prohibited. See [`LICENSE`](LICENSE).
 
+
+## Choose your path
+
+### I am a CEO / Founder
+
+Start with the business problem, not the technology.
+
+**[Use the CEO Master Prompt](docs/ceo-master-prompt.md)** · **[Open the live demo](https://ai-native-ceo-copilot.vercel.app/)** · **[See the Executive Overview](docs/executive-overview.md)**
+
+Describe the situation you want to understand. The framework helps structure the questions, evidence, options and trade-offs without requiring you to understand the underlying AI architecture.
+
+### I am evaluating the technology
+
+Go deeper into executable workflows, observability, inference economics, model routing and NVIDIA-oriented deployment.
+
+**[Run the executable workflow](examples/margin-analysis/)** · **[See observability](docs/observability.md)** · **[See NVIDIA deployment](docs/nvidia-inference-deployment.md)**
+
+### I want this adapted to my company
+
+**[Build this for my company — start with the Enterprise AI Architecture Assessment](docs/enterprise-ai-architecture-assessment.md)**
+
+The assessment starts from one high-value executive decision and maps the evidence, workflow, governance and minimum reliable infrastructure needed to support it.
+
 ## For CEOs: what changes
 
 Traditional operating model:
@@ -75,9 +98,11 @@ A zero-API-cost synthetic demo shows how executive questions become cross-functi
 
 The demo uses Northstar Industrial Systems S.L., a synthetic company with realistic synthetic data. It is deterministic by design; production implementations can connect real ERP/CRM/BI systems and governed AI agents.
 
-### Run the margin workflow locally
+### Technical evaluation: run the margin workflow locally
 
-The public repository now includes a deterministic executable workflow that reads the synthetic finance and project data and produces a reproducible executive margin diagnosis.
+CEOs can skip this section. It exists for technical evaluators who want to inspect execution, reproducibility and telemetry.
+
+The public repository includes a deterministic executable workflow that reads the synthetic finance and project data and produces a reproducible executive margin diagnosis.
 
 ```bash
 python3 examples/margin-analysis/run.py
