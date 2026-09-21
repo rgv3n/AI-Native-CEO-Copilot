@@ -439,6 +439,8 @@ The economically correct decision depends on utilization.
 
 A GPU that is technically fast but mostly idle can be more expensive than an external service.
 
+The repository models this at the business-workload level through **Cost per Executive Workflow**. See [`executive-workflow-economics.md`](executive-workflow-economics.md). The private-GPU calculator accepts an effective GPU-hour rate plus measured or allocated GPU-seconds, so hardware economics can be compared against managed token pricing without hard-coding vendor prices.
+
 ---
 
 ## 18. Recommended architecture evolution

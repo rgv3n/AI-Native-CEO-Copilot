@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/demo/index.html"
+    },
+    {
+      "source": "/demo",
+      "destination": "/demo/index.html"
+    }
+  ]
+}

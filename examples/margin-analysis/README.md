@@ -298,6 +298,41 @@ A response that only says "costs increased" should fail the benchmark.
 
 ---
 
+## Run the executable public workflow
+
+This example includes a deterministic Python implementation that reads the synthetic CSV files and produces the margin diagnosis from repository data.
+
+```bash
+python3 examples/margin-analysis/run.py
+```
+
+For structured output suitable for automation or evaluation:
+
+```bash
+python3 examples/margin-analysis/run.py --json
+```
+
+### What it measures
+
+The executable reports:
+
+- company gross-margin deterioration,
+- revenue movement over the same window,
+- aggregate unbilled scope, overtime and rework signals,
+- a transparent priority ranking of margin-risk projects,
+- recommended management actions,
+- deterministic workflow runtime and records analyzed.
+
+### What it does not claim
+
+The public executable does **not** call an LLM and therefore reports zero model calls, tokens and inference cost. It is intended to prove the data-to-decision path without requiring an API key.
+
+The repository also contains an illustrative production-style observability contract at [`../observability/margin-analysis-trace.json`](../observability/margin-analysis-trace.json), showing where model calls, token usage, caching, latency and cost-per-workflow can be captured when a governed inference layer is added.
+
+The ranking heuristic is intentionally transparent and is not presented as an accounting attribution model. Exact causal contribution to company-level margin requires richer cost attribution in a production implementation.
+
+---
+
 ## Enterprise implementation
 
 This public example demonstrates the architectural pattern using synthetic data.

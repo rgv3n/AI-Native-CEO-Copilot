@@ -60,6 +60,24 @@ A zero-API-cost synthetic demo shows how executive questions become cross-functi
 
 The demo uses Northstar Industrial Systems S.L., a synthetic company with realistic synthetic data. It is deterministic by design; production implementations can connect real ERP/CRM/BI systems and governed AI agents.
 
+### Run the margin workflow locally
+
+The public repository now includes a deterministic executable workflow that reads the synthetic finance and project data and produces a reproducible executive margin diagnosis.
+
+```bash
+python3 examples/margin-analysis/run.py
+```
+
+Machine-readable output:
+
+```bash
+python3 examples/margin-analysis/run.py --json
+```
+
+This public executable deliberately makes **zero model calls**. That makes the business logic and evidence path reproducible without API keys or inference cost. In a production deployment, the same workflow boundary can be instrumented with model calls, token usage, cache hits, endpoint latency, GPU utilization and **cost per executive workflow**.
+
+See [`examples/margin-analysis/`](examples/margin-analysis/) and the illustrative production-style telemetry contract in [`examples/observability/margin-analysis-trace.json`](examples/observability/margin-analysis-trace.json).
+
 ## What should reach the CEO
 
 Not another dashboard.
