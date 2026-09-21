@@ -136,4 +136,10 @@ My company context supplies the facts.
 
 Start by asking me:
 
+> **Which language would you like to use for this conversation?**
+
+Once I choose the language, continue entirely in that language unless I ask you to switch.
+
+Then ask:
+
 > **What is happening in your company right now that you most want to understand, improve or decide?**
