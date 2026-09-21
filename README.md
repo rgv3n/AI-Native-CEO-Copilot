@@ -60,6 +60,8 @@ Give ChatGPT or Claude the repository as reference context, add your current com
 
 The assistant should use the repository to structure the analysis, separate facts from inference, surface missing evidence, compare options and trade-offs, and return decision-ready answers rather than generic advice.
 
+**Permitted AI use:** you may use this repository as reference context in ChatGPT, Claude or another general-purpose AI assistant for internal analysis of your own company. This permission does **not** allow reconstruction, derivative implementation, resale, training, benchmarking corpora, or commercial reuse of the architecture. See [`LICENSE`](LICENSE).
+
 **[How to use this repository with ChatGPT or Claude](docs/use-with-chatgpt-or-claude.md)**
 
 **[Start with the CEO Master Prompt](docs/ceo-master-prompt.md)** — copy it into ChatGPT or Claude, add your company context, and let the assistant ask the questions needed to understand the situation before giving you options.
@@ -68,7 +70,8 @@ The assistant should use the repository to structure the analysis, separate fact
 
 A zero-API-cost synthetic demo shows how executive questions become cross-functional evidence, decision options, recommendations, authority checks and an auditable trace.
 
-**[Open the CEO demo source](demo/index.html)**
+**[Open the live CEO demo](https://ai-native-ceo-copilot.vercel.app/)**  
+[View the demo source](demo/index.html)
 
 The demo uses Northstar Industrial Systems S.L., a synthetic company with realistic synthetic data. It is deterministic by design; production implementations can connect real ERP/CRM/BI systems and governed AI agents.
 
@@ -462,7 +465,7 @@ This is **not an open-source repository**.
 
 Public visibility grants viewing and evaluation rights only. Copying, redistribution, derivative implementation, commercial reuse and unauthorized AI-assisted reconstruction are prohibited under [`LICENSE`](LICENSE).
 
-The repository may be summarized for evaluation, but without prior written permission its contents may not be supplied to ChatGPT, other LLMs, coding assistants, autonomous agents, RAG systems, vector databases or automated systems for reconstructing or implementing this architecture, creating derivative systems, building competing products, training models or creating reusable machine datasets.
+The repository may be used as reference context in a general-purpose AI assistant for internal analysis of your own company, as described in [`LICENSE`](LICENSE). It may **not** be used to reconstruct or implement this architecture, create derivative or competing systems, train models, build benchmarking or reusable datasets, or commercially reuse the Materials without prior written permission.
 
 ## Author
 
