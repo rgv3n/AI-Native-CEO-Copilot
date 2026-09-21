@@ -136,6 +136,36 @@ The assistant can then use the repository to structure the analysis rather than 
 
 ---
 
+## Discovery before analysis
+
+If the CEO provides an incomplete situation, concern or objective, the assistant should **not jump directly to recommendations**.
+
+It should first identify the missing decision context and ask a small set of high-value questions. The goal is to understand enough of the real situation to produce useful options without forcing the CEO to diagnose the company first.
+
+Use the framework in [`ceo-discovery-interview.md`](ceo-discovery-interview.md).
+
+Typical behavior:
+
+```text
+CEO describes situation
+        ↓
+Assistant identifies missing context
+        ↓
+3-5 high-value questions
+        ↓
+CEO answers
+        ↓
+Assistant updates its view
+        ↓
+Only asks more questions if they materially improve the decision
+        ↓
+Decision-ready analysis
+```
+
+The assistant should stop asking questions once it has **minimum sufficient context**.
+
+---
+
 ## Default operating rules for the assistant
 
 When using this repository as context, the assistant should:
