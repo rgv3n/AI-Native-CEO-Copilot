@@ -35,6 +35,17 @@ Go deeper into executable workflows, observability, inference economics, model r
 
 The assessment starts from one high-value executive decision and maps the evidence, workflow, governance and minimum reliable infrastructure needed to support it.
 
+## Use it inside Claude Code (plugin)
+
+Install the CEO Copilot skills directly in Claude Code:
+
+```text
+/plugin marketplace add rgv3n/AI-Native-CEO-Copilot
+/plugin install ceo-copilot@companies-automation
+```
+
+Then ask *"What deserves my attention today?"* or *"Why did our gross margin fall this month? Use the demo data."* Five skills are included: executive briefing, margin analysis, cash-flow risk, sales prioritization and project risk. See [`plugins/ceo-copilot`](plugins/ceo-copilot/).
+
 ## For CEOs: what changes
 
 Traditional operating model:

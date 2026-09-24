@@ -1,0 +1,9 @@
+project_id,customer_id,project_name,status,contract_value_eur,planned_cost_eur,actual_cost_to_date_eur,completion_pct,planned_gross_margin_pct,current_forecast_margin_pct,planned_end_date,forecast_end_date,scope_change_value_eur,unbilled_scope_change_eur,overtime_cost_eur,rework_cost_eur,delivery_risk,notes
+P001,C001,Helios Line 7 Automation,active,1450000,986000,812000,0.72,0.32,0.24,2026-10-31,2026-11-21,95000,62000,38000,24000,high,"Material inflation and unbilled change requests; procurement delay on drives."
+P002,C003,Orion EV Component Cell,active,1180000,790000,705000,0.68,0.33,0.19,2026-11-15,2026-12-20,130000,88000,52000,31000,high,"Scope expansion accepted operationally before commercial approval; heavy engineering rework."
+P003,C005,Lusitania Pharma Packaging Upgrade,active,980000,637000,401000,0.55,0.35,0.29,2026-10-10,2026-11-05,42000,18000,19000,7000,high,"Critical vision components delayed by supplier S003."
+P004,C002,Alba Plant MES Integration,active,720000,446000,311000,0.64,0.38,0.37,2026-09-30,2026-10-04,12000,0,8000,3000,low,"Broadly on plan; small schedule slip with limited economic impact."
+P005,C006,NovaGlass Furnace Controls,active,610000,433000,369000,0.76,0.29,0.21,2026-09-25,2026-10-18,36000,27000,29000,18000,high,"Customer requested late design changes; complaint already escalated."
+P006,C004,VerdeChem Utilities Monitoring,active,540000,313000,176000,0.48,0.42,0.41,2026-11-30,2026-11-30,0,0,4000,1000,low,"Healthy execution and margin."
+P007,C008,Delta Water SCADA Retrofit,active,430000,352000,321000,0.83,0.18,0.11,2026-09-20,2026-10-12,18000,16000,25000,22000,high,"Low-margin contract, repeated rework and customer approval delays."
+P008,C007,Teknia Robotics Support Renewal,active,360000,194000,91000,0.51,0.46,0.47,2027-01-31,2027-01-31,0,0,0,1000,low,"Recurring support business; strong economics and stable delivery."

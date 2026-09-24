@@ -1,0 +1,7 @@
+supplier_id,name,category,annual_spend_eur,share_of_category_spend,on_time_delivery_pct,avg_delay_days,price_change_yoy_pct,payment_terms_days,dependency_level,risk_status,notes
+S001,Vector Drives Europe,Motion control,890000,0.46,0.91,3,0.07,30,high,watch,"Large spend concentration; price increases above plan but delivery still mostly reliable."
+S002,ControlWorks Iberia,PLC and controls,610000,0.33,0.96,1,0.03,45,medium,healthy,"Strong delivery and normal pricing."
+S003,OptiVision Technologies,Machine vision,520000,0.71,0.68,19,0.11,30,critical,risk,"Critical single-source components affecting P003; repeated delays and double-digit price inflation."
+S004,MetalFab Solutions,Panels and enclosures,430000,0.39,0.87,6,0.05,30,medium,watch,"Some schedule variability but alternatives exist."
+S005,Electra Distribution,Electrical components,360000,0.22,0.95,2,0.04,45,low,healthy,"Diversified commodity supplier."
+S006,ServoTech France,Motion control,290000,0.15,0.93,3,0.02,45,medium,healthy,"Potential alternative source for selected Vector Drives components."

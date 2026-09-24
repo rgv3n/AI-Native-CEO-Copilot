@@ -1,0 +1,26 @@
+{
+  "name": "companies-automation",
+  "owner": {
+    "name": "Rubén García",
+    "url": "https://companiesautomation.com/en"
+  },
+  "metadata": {
+    "description": "AI-native executive intelligence plugins by CompaniesAutomation.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ceo-copilot",
+      "source": "./plugins/ceo-copilot",
+      "description": "Source-grounded executive intelligence: margin diagnosis, cash-flow traps, sales prioritization, project risk and a daily CEO briefing.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rubén García"
+      },
+      "homepage": "https://github.com/rgv3n/AI-Native-CEO-Copilot",
+      "license": "SEE LICENSE IN LICENSE",
+      "keywords": ["ceo", "executive", "finance", "margin", "cash-flow", "sales", "project-risk", "agentic"],
+      "category": "productivity"
+    }
+  ]
+}

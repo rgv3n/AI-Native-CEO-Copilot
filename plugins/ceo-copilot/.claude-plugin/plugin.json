@@ -1,0 +1,13 @@
+{
+  "name": "ceo-copilot",
+  "version": "0.1.0",
+  "description": "AI-Native CEO Copilot: source-grounded executive analysis of margin, cash, pipeline and project risk, with a synthetic demo company included.",
+  "author": {
+    "name": "Rubén García",
+    "url": "https://companiesautomation.com/en"
+  },
+  "homepage": "https://github.com/rgv3n/AI-Native-CEO-Copilot",
+  "repository": "https://github.com/rgv3n/AI-Native-CEO-Copilot",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["ceo", "executive", "finance", "margin", "cash-flow", "sales", "project-risk"]
+}
